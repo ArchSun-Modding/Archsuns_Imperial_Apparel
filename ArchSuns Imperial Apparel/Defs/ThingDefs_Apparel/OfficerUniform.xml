@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="ApparelBase">
+        <defName>ArchSun_OfficerUniform</defName>
+
+        <label>officer uniform</label>
+
+        <description> A formal uniform worn by officers of the a distant star empire's imperial armed service. Designed to project authority, discipline, and prestige.</description>
+
+        <thingClass>Apparel</thingClass>
+
+        <graphicData>
+            <texPath>Things/Apparel/OfficerUniform/Apparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			
+        </graphicData>
+		<uiIconScale>1.4</uiIconScale>
+        <apparel>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+<wornGraphicPath>Things/Apparel/OfficerUniform/Apparel</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <MarketValue>175</MarketValue>
+            <WorkToMake>8000</WorkToMake>
+            <Insulation_Cold>0.3</Insulation_Cold>
+            <Insulation_Heat>0.8</Insulation_Heat>
+        </statBases>
+		<tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+		</tradeTags>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

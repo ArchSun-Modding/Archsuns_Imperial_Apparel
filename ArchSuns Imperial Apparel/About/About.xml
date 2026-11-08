@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>ArchSun's Imperial Apparel</name>
+    <author>ArchSun</author>
+
+    <packageId>archsun.imperialapparel</packageId>
+
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+
+    <description>
+        Adds Imperial-themed apparel for RimWorld.
+    </description>
+</ModMetaData>
